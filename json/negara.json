@@ -1,0 +1,1508 @@
+[
+  {
+    "id_negara": "AD",
+    "nm_negara": "Andorra",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "AE",
+    "nm_negara": "United Arab Emirates",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "AF",
+    "nm_negara": "Afghanistan",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "AG",
+    "nm_negara": "Antigua And Barbuda",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "AI",
+    "nm_negara": "Anguilla",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "AL",
+    "nm_negara": "Albania",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "AM",
+    "nm_negara": "Armenia",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "AN",
+    "nm_negara": "Netherlands Antilles",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "AO",
+    "nm_negara": "Angola",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "AQ",
+    "nm_negara": "Antarctica",
+    "a_ln": 1,
+    "benua": 6
+  },
+  {
+    "id_negara": "AR",
+    "nm_negara": "Argentina",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "AS",
+    "nm_negara": "American Samoa",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "AT",
+    "nm_negara": "Austria",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "AU",
+    "nm_negara": "Australia",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "AW",
+    "nm_negara": "Aruba",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "AX",
+    "nm_negara": "Aland Islands",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "AZ",
+    "nm_negara": "Azerbaijan",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "BA",
+    "nm_negara": "Bosnia And Herzegovina",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "BB",
+    "nm_negara": "Barbados",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "BD",
+    "nm_negara": "Bangladesh",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "BE",
+    "nm_negara": "Belgium",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "BF",
+    "nm_negara": "Burkina Faso",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "BG",
+    "nm_negara": "Bulgaria",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "BH",
+    "nm_negara": "Bahrain",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "BI",
+    "nm_negara": "Burundi",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "BJ",
+    "nm_negara": "Benin",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "BL",
+    "nm_negara": "Saint Bartelemey",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "BM",
+    "nm_negara": "Bermuda",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "BN",
+    "nm_negara": "Brunei Darussalam",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "BO",
+    "nm_negara": "Bolivia",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "BQ",
+    "nm_negara": "Bonaire, Saint Eustatius and Saba",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "BR",
+    "nm_negara": "Brazil",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "BS",
+    "nm_negara": "Bahamas",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "BT",
+    "nm_negara": "Bhutan",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "BV",
+    "nm_negara": "Bouvet Island",
+    "a_ln": 1,
+    "benua": 6
+  },
+  {
+    "id_negara": "BW",
+    "nm_negara": "Botswana",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "BY",
+    "nm_negara": "Belarus",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "BZ",
+    "nm_negara": "Belize",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "CA",
+    "nm_negara": "Canada",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "CC",
+    "nm_negara": "Cocos (Keeling) Islands",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "CD",
+    "nm_negara": "Congo, The Democratic Republic Of The",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "CF",
+    "nm_negara": "Central African Republic",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "CG",
+    "nm_negara": "Congo",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "CH",
+    "nm_negara": "Switzerland",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "CI",
+    "nm_negara": "Cote D'Ivoire",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "CK",
+    "nm_negara": "Cook Islands",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "CL",
+    "nm_negara": "Chile",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "CM",
+    "nm_negara": "Cameroon",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "CN",
+    "nm_negara": "China",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "CO",
+    "nm_negara": "Colombia",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "CR",
+    "nm_negara": "Costa Rica",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "CS",
+    "nm_negara": "Serbia And Montenegro",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "CU",
+    "nm_negara": "Cuba",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "CV",
+    "nm_negara": "Cape Verde",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "CW",
+    "nm_negara": "Curacao",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "CX",
+    "nm_negara": "Christmas Island",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "CY",
+    "nm_negara": "Cyprus",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "CZ",
+    "nm_negara": "Czech Republic",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "DE",
+    "nm_negara": "Germany",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "DJ",
+    "nm_negara": "Djibouti",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "DK",
+    "nm_negara": "Denmark",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "DM",
+    "nm_negara": "Dominica",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "DO",
+    "nm_negara": "Dominican Republic",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "DZ",
+    "nm_negara": "Algeria",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "EC",
+    "nm_negara": "Ecuador",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "EE",
+    "nm_negara": "Estonia",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "EG",
+    "nm_negara": "Egypt",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "EH",
+    "nm_negara": "Western Sahara",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "ER",
+    "nm_negara": "Eritrea",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "ES",
+    "nm_negara": "Spain",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "ET",
+    "nm_negara": "Ethiopia",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "FI",
+    "nm_negara": "Finland",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "FJ",
+    "nm_negara": "Fiji",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "FK",
+    "nm_negara": "Falkland Islands (Malvinas)",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "FM",
+    "nm_negara": "Micronesia, Federated States Of",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "FO",
+    "nm_negara": "Faroe Islands",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "FR",
+    "nm_negara": "France",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "GA",
+    "nm_negara": "Gabon",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "GB",
+    "nm_negara": "United Kingdom",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "GD",
+    "nm_negara": "Grenada",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "GE",
+    "nm_negara": "Georgia",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "GF",
+    "nm_negara": "French Guiana",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "GG",
+    "nm_negara": "Guernsey",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "GH",
+    "nm_negara": "Ghana",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "GI",
+    "nm_negara": "Gibraltar",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "GL",
+    "nm_negara": "Greenland",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "GM",
+    "nm_negara": "Gambia",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "GN",
+    "nm_negara": "Guinea",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "GP",
+    "nm_negara": "Guadeloupe",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "GQ",
+    "nm_negara": "Equatorial Guinea",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "GR",
+    "nm_negara": "Greece",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "GS",
+    "nm_negara": "South Georgia And The South Sandwich Islands",
+    "a_ln": 1,
+    "benua": 6
+  },
+  {
+    "id_negara": "GT",
+    "nm_negara": "Guatemala",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "GU",
+    "nm_negara": "Guam",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "GW",
+    "nm_negara": "Guinea-Bissau",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "GY",
+    "nm_negara": "Guyana",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "HK",
+    "nm_negara": "Hong Kong",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "HM",
+    "nm_negara": "Heard Island And Mcdonald Islands",
+    "a_ln": 1,
+    "benua": 6
+  },
+  {
+    "id_negara": "HN",
+    "nm_negara": "Honduras",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "HR",
+    "nm_negara": "Croatia",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "HT",
+    "nm_negara": "Haiti",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "HU",
+    "nm_negara": "Hungary",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "ID",
+    "nm_negara": "Indonesia",
+    "a_ln": 0,
+    "benua": 1
+  },
+  {
+    "id_negara": "IE",
+    "nm_negara": "Ireland",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "IL",
+    "nm_negara": "Israel",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "IM",
+    "nm_negara": "Isle Of Man",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "IN",
+    "nm_negara": "India",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "IO",
+    "nm_negara": "British Indian Ocean Territory",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "IQ",
+    "nm_negara": "Iraq",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "IR",
+    "nm_negara": "Iran, Islamic Republic Of",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "IS",
+    "nm_negara": "Iceland",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "IT",
+    "nm_negara": "Italy",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "JE",
+    "nm_negara": "Jersey",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "JM",
+    "nm_negara": "Jamaica",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "JO",
+    "nm_negara": "Jordan",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "JP",
+    "nm_negara": "Japan",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "KE",
+    "nm_negara": "Kenya",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "KG",
+    "nm_negara": "Kyrgyzstan",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "KH",
+    "nm_negara": "Cambodia",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "KI",
+    "nm_negara": "Kiribati",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "KM",
+    "nm_negara": "Comoros",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "KN",
+    "nm_negara": "Saint Kitts And Nevis",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "KP",
+    "nm_negara": "Korea, Democratic People'S Republic Of",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "KR",
+    "nm_negara": "Korea, Republic Of",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "KW",
+    "nm_negara": "Kuwait",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "KY",
+    "nm_negara": "Cayman Islands",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "KZ",
+    "nm_negara": "Kazakhstan",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "LA",
+    "nm_negara": "Lao People'S Democratic Republic",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "LB",
+    "nm_negara": "Lebanon",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "LC",
+    "nm_negara": "Saint Lucia",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "LI",
+    "nm_negara": "Liechtenstein",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "LK",
+    "nm_negara": "Sri Lanka",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "LR",
+    "nm_negara": "Liberia",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "LS",
+    "nm_negara": "Lesotho",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "LT",
+    "nm_negara": "Lithuania",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "LU",
+    "nm_negara": "Luxembourg",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "LV",
+    "nm_negara": "Latvia",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "LY",
+    "nm_negara": "Libyan Arab Jamahiriya",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "MA",
+    "nm_negara": "Morocco",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "MC",
+    "nm_negara": "Monaco",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "MD",
+    "nm_negara": "Moldova, Republic Of",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "ME",
+    "nm_negara": "Montenegro",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "MF",
+    "nm_negara": "Saint Martin",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "MG",
+    "nm_negara": "Madagascar",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "MH",
+    "nm_negara": "Marshall Islands",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "MK",
+    "nm_negara": "Macedonia, The Former Yugoslav Republic Of",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "ML",
+    "nm_negara": "Mali",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "MM",
+    "nm_negara": "Myanmar",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "MN",
+    "nm_negara": "Mongolia",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "MO",
+    "nm_negara": "Macao",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "MP",
+    "nm_negara": "Northern Mariana Islands",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "MQ",
+    "nm_negara": "Martinique",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "MR",
+    "nm_negara": "Mauritania",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "MS",
+    "nm_negara": "Montserrat",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "MT",
+    "nm_negara": "Malta",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "MU",
+    "nm_negara": "Mauritius",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "MV",
+    "nm_negara": "Maldives",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "MW",
+    "nm_negara": "Malawi",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "MX",
+    "nm_negara": "Mexico",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "MY",
+    "nm_negara": "Malaysia",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "MZ",
+    "nm_negara": "Mozambique",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "NA",
+    "nm_negara": "Namibia",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "NC",
+    "nm_negara": "New Caledonia",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "NE",
+    "nm_negara": "Niger",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "NF",
+    "nm_negara": "Norfolk Island",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "NG",
+    "nm_negara": "Nigeria",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "NI",
+    "nm_negara": "Nicaragua",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "NL",
+    "nm_negara": "Netherlands",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "NO",
+    "nm_negara": "Norway",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "NP",
+    "nm_negara": "Nepal",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "NR",
+    "nm_negara": "Nauru",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "NU",
+    "nm_negara": "Niue",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "NZ",
+    "nm_negara": "New Zealand",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "OM",
+    "nm_negara": "Oman",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "PA",
+    "nm_negara": "Panama",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "PE",
+    "nm_negara": "Peru",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "PF",
+    "nm_negara": "French Polynesia",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "PG",
+    "nm_negara": "Papua New Guinea",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "PH",
+    "nm_negara": "Philippines",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "PK",
+    "nm_negara": "Pakistan",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "PL",
+    "nm_negara": "Poland",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "PM",
+    "nm_negara": "Saint Pierre And Miquelon",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "PN",
+    "nm_negara": "Pitcairn",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "PR",
+    "nm_negara": "Puerto Rico",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "PS",
+    "nm_negara": "Palestinian Territory, Occupied",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "PT",
+    "nm_negara": "Portugal",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "PW",
+    "nm_negara": "Palau",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "PY",
+    "nm_negara": "Paraguay",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "QA",
+    "nm_negara": "Qatar",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "RE",
+    "nm_negara": "Reunion",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "RO",
+    "nm_negara": "Romania",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "RS",
+    "nm_negara": "Serbia",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "RU",
+    "nm_negara": "Russian Federation",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "RW",
+    "nm_negara": "Rwanda",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "SA",
+    "nm_negara": "Saudi Arabia",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "SB",
+    "nm_negara": "Solomon Islands",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "SC",
+    "nm_negara": "Seychelles",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "SD",
+    "nm_negara": "Sudan",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "SE",
+    "nm_negara": "Sweden",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "SG",
+    "nm_negara": "Singapore",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "SH",
+    "nm_negara": "Saint Helena",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "SI",
+    "nm_negara": "Slovenia",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "SJ",
+    "nm_negara": "Svalbard And Jan Mayen",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "SK",
+    "nm_negara": "Slovakia",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "SL",
+    "nm_negara": "Sierra Leone",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "SM",
+    "nm_negara": "San Marino",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "SN",
+    "nm_negara": "Senegal",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "SO",
+    "nm_negara": "Somalia",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "SR",
+    "nm_negara": "Suriname",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "SS",
+    "nm_negara": "South Sudan",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "ST",
+    "nm_negara": "Sao Tome And Principe",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "SV",
+    "nm_negara": "El Salvador",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "SX",
+    "nm_negara": "Sint Maarten",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "SY",
+    "nm_negara": "Syrian Arab Republic",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "SZ",
+    "nm_negara": "Swaziland",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "TC",
+    "nm_negara": "Turks And Caicos Islands",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "TD",
+    "nm_negara": "Chad",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "TF",
+    "nm_negara": "French Southern Territories",
+    "a_ln": 1,
+    "benua": 6
+  },
+  {
+    "id_negara": "TG",
+    "nm_negara": "Togo",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "TH",
+    "nm_negara": "Thailand",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "TJ",
+    "nm_negara": "Tajikistan",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "TK",
+    "nm_negara": "Tokelau",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "TL",
+    "nm_negara": "Timor-Leste",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "TM",
+    "nm_negara": "Turkmenistan",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "TN",
+    "nm_negara": "Tunisia",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "TO",
+    "nm_negara": "Tonga",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "TR",
+    "nm_negara": "Turkey",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "TT",
+    "nm_negara": "Trinidad And Tobago",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "TV",
+    "nm_negara": "Tuvalu",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "TW",
+    "nm_negara": "Taiwan, Province Of China",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "TZ",
+    "nm_negara": "Tanzania, United Republic Of",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "UA",
+    "nm_negara": "Ukraine",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "UG",
+    "nm_negara": "Uganda",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "UM",
+    "nm_negara": "United States Minor Outlying Islands",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "US",
+    "nm_negara": "United States",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "UY",
+    "nm_negara": "Uruguay",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "UZ",
+    "nm_negara": "Uzbekistan",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "VA",
+    "nm_negara": "Holy See (Vatican City State)",
+    "a_ln": 1,
+    "benua": 3
+  },
+  {
+    "id_negara": "VC",
+    "nm_negara": "Saint Vincent And The Grenadines",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "VE",
+    "nm_negara": "Venezuela",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "VG",
+    "nm_negara": "Virgin Islands, British",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "VI",
+    "nm_negara": "Virgin Islands, U.S.",
+    "a_ln": 1,
+    "benua": 2
+  },
+  {
+    "id_negara": "VN",
+    "nm_negara": "Viet Nam",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "VU",
+    "nm_negara": "Vanuatu",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "WF",
+    "nm_negara": "Wallis And Futuna",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "WS",
+    "nm_negara": "Samoa",
+    "a_ln": 1,
+    "benua": 4
+  },
+  {
+    "id_negara": "YE",
+    "nm_negara": "Yemen",
+    "a_ln": 1,
+    "benua": 1
+  },
+  {
+    "id_negara": "YT",
+    "nm_negara": "Mayotte",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "ZA",
+    "nm_negara": "South Africa",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "ZM",
+    "nm_negara": "Zambia",
+    "a_ln": 1,
+    "benua": 5
+  },
+  {
+    "id_negara": "ZW",
+    "nm_negara": "Zimbabwe",
+    "a_ln": 1,
+    "benua": 5
+  }
+]
