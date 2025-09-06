@@ -1,1 +1,111 @@
-<h1>N.W. Dev</h1>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N.W. Dev - Android Developer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background: #2c3e50; color: white; padding: 1rem 0; }
+        .hero { text-align: center; padding: 4rem 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .hero h1 { font-size: 3rem; margin-bottom: 1rem; }
+        .hero p { font-size: 1.2rem; margin-bottom: 2rem; }
+        .btn { display: inline-block; padding: 12px 30px; background: #e74c3c; color: white; text-decoration: none; border-radius: 5px; transition: background 0.3s; }
+        .btn:hover { background: #c0392b; }
+        .services { padding: 4rem 0; }
+        .services h2 { text-align: center; margin-bottom: 3rem; font-size: 2.5rem; }
+        .service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .service-card { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center; }
+        .service-card h3 { color: #2c3e50; margin-bottom: 1rem; }
+        .portfolio { padding: 4rem 0; background: #ecf0f1; }
+        .portfolio h2 { text-align: center; margin-bottom: 3rem; font-size: 2.5rem; }
+        .app-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+        .app-card { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .app-card h3 { color: #2c3e50; margin-bottom: 1rem; font-size: 1.5rem; }
+        .app-status { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: bold; margin-bottom: 1rem; }
+        .status-released { background: #27ae60; color: white; }
+        .status-development { background: #f39c12; color: white; }
+        .contact { background: #34495e; color: white; padding: 4rem 0; text-align: center; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 2rem 0; }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .service-grid { grid-template-columns: 1fr; }
+            .app-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>N.W. Dev</h1>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Android Developer</h1>
+            <p>Mengembangkan aplikasi Android berkualitas tinggi dengan teknologi terdepan</p>
+            <a href="#contact" class="btn">Hubungi Saya</a>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Layanan</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>📱 Pengembangan Aplikasi</h3>
+                    <p>Membuat aplikasi Android native dengan performa optimal dan UI/UX yang menarik</p>
+                </div>
+                <div class="service-card">
+                    <h3>🔧 Maintenance & Update</h3>
+                    <p>Pemeliharaan dan update aplikasi untuk memastikan kompatibilitas dengan versi Android terbaru</p>
+                </div>
+                <div class="service-card">
+                    <h3>🚀 Optimasi Performa</h3>
+                    <p>Meningkatkan performa aplikasi dan mengurangi ukuran file untuk pengalaman pengguna yang lebih baik</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <h2>Portfolio Aplikasi</h2>
+            <div class="app-grid">
+                <div class="app-card">
+                    <h3>💰 Debt Manager</h3>
+                    <span class="app-status status-released">Tersedia</span>
+                    <p>Aplikasi manajemen hutang yang membantu pengguna melacak dan mengelola hutang piutang dengan mudah dan efisien.</p>
+                </div>
+                <div class="app-card">
+                    <h3>🧮 Kas Kalkulator</h3>
+                    <span class="app-status status-released">Tersedia</span>
+                    <p>Kalkulator kas yang dirancang khusus untuk membantu pengelolaan keuangan harian dan perhitungan kas dengan akurat.</p>
+                </div>
+                <div class="app-card">
+                    <h3>📊 CashFlow</h3>
+                    <span class="app-status status-development">Dalam Pengembangan</span>
+                    <p>Aplikasi manajemen arus kas yang akan membantu bisnis dan individu memantau pemasukan dan pengeluaran secara real-time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Hubungi Saya</h2>
+            <p>Siap membantu mewujudkan ide aplikasi Android Anda</p>
+            <p>📧 Email: contact@nwdev.com | 📱 WhatsApp: +62 xxx-xxxx-xxxx</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 N.W. Dev. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
