@@ -1,0 +1,6 @@
+PK                  ! debt-manager-v1.0.apk
+This is a demo APK file for Debt Manager application.
+In a real scenario, this would be the actual compiled Android APK file.
+File size: ~5MB
+Version: 1.0.0
+Package: com.nwdev.debtmanager

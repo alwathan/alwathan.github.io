@@ -1,0 +1,21 @@
+<svg width="180" height="320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="320" fill="#f8f9fa" rx="20"/>
+  <rect x="10" y="40" width="160" height="40" fill="#5856D6" rx="8"/>
+  <text x="90" y="65" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">Kategori</text>
+  <rect x="20" y="100" width="140" height="35" fill="white" stroke="#e0e0e0" rx="6"/>
+  <rect x="25" y="107" width="20" height="20" fill="#34c759" rx="3"/>
+  <text x="55" y="120" fill="#333" font-family="Arial" font-size="12">Penjualan</text>
+  <text x="130" y="120" text-anchor="end" fill="#34c759" font-family="Arial" font-size="12">8.5M</text>
+  <rect x="20" y="145" width="140" height="35" fill="white" stroke="#e0e0e0" rx="6"/>
+  <rect x="25" y="152" width="20" height="20" fill="#007AFF" rx="3"/>
+  <text x="55" y="165" fill="#333" font-family="Arial" font-size="12">Investasi</text>
+  <text x="130" y="165" text-anchor="end" fill="#007AFF" font-family="Arial" font-size="12">2.0M</text>
+  <rect x="20" y="190" width="140" height="35" fill="white" stroke="#e0e0e0" rx="6"/>
+  <rect x="25" y="197" width="20" height="20" fill="#e74c3c" rx="3"/>
+  <text x="55" y="210" fill="#333" font-family="Arial" font-size="12">Operasional</text>
+  <text x="130" y="210" text-anchor="end" fill="#e74c3c" font-family="Arial" font-size="12">-3.2M</text>
+  <rect x="20" y="235" width="140" height="35" fill="white" stroke="#e0e0e0" rx="6"/>
+  <rect x="25" y="242" width="20" height="20" fill="#f39c12" rx="3"/>
+  <text x="55" y="255" fill="#333" font-family="Arial" font-size="12">Marketing</text>
+  <text x="130" y="255" text-anchor="end" fill="#f39c12" font-family="Arial" font-size="12">-1.8M</text>
+</svg>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debt Manager - Aplikasi Manajemen Hutang Piutang</title>
+    <meta name="description" content="Download Debt Manager - Aplikasi Android untuk mengelola hutang piutang dengan mudah. Fitur lengkap tracking pembayaran dan reminder otomatis.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.5; color: #1d1d1f; background: #f5f5f7; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+        header { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(20px); border-bottom: 1px solid rgba(0,0,0,0.1); padding: 1rem 0; position: fixed; width: 100%; top: 0; z-index: 1000; }
+        .header-content { display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; gap: 10px; }
+        .logo-icon { width: 40px; height: 40px; background: linear-gradient(135deg, #007AFF, #5856D6); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2rem; font-weight: 700; }
+        .logo h1 { font-weight: 600; font-size: 1.5rem; color: #1d1d1f; }
+        .back-btn { color: #007AFF; text-decoration: none; font-weight: 500; }
+        .app-detail { padding: 6rem 0 4rem; background: white; }
+        .app-hero { display: flex; gap: 2rem; margin-bottom: 3rem; }
+        .app-icon-large { width: 120px; height: 120px; border-radius: 24px; flex-shrink: 0; object-fit: cover; }
+        .app-info-large { flex: 1; }
+        .app-title { font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .app-subtitle { color: #86868b; font-size: 1.1rem; margin-bottom: 1rem; }
+        .app-rating-large { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
+        .stars-large { color: #FF9500; font-size: 1.2rem; }
+        .rating-info { color: #86868b; }
+        .download-btn-large { background: #007AFF; color: white; border: none; padding: 16px 40px; border-radius: 25px; font-weight: 600; font-size: 1.1rem; cursor: pointer; transition: all 0.3s ease; }
+        .download-btn-large:hover { background: #0056CC; transform: scale(1.05); }
+        .screenshots-section { margin-bottom: 3rem; }
+        .section-title { font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem; }
+        .screenshots-large { display: flex; gap: 1rem; overflow-x: auto; padding-bottom: 1rem; }
+        .screenshot-large { width: 200px; height: 350px; border-radius: 16px; object-fit: cover; border: 1px solid rgba(0,0,0,0.1); cursor: pointer; transition: transform 0.2s ease; }
+        .screenshot-large:hover { transform: scale(1.05); }
+        .description-section { margin-bottom: 3rem; }
+        .description-text { font-size: 1rem; line-height: 1.6; color: #515154; margin-bottom: 2rem; }
+        .features-list { list-style: none; }
+        .features-list li { padding: 0.5rem 0; color: #515154; }
+        .features-list li:before { content: "✓"; color: #34c759; font-weight: bold; margin-right: 0.5rem; }
+        .info-section { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 3rem; }
+        .info-card { background: #f8f9fa; padding: 1.5rem; border-radius: 12px; }
+        .info-card h3 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; }
+        .info-card p { color: #666; font-size: 0.9rem; }
+        footer { background: #1d1d1f; color: #86868b; padding: 3rem 0; text-align: center; }
+        .modal { display: none; position: fixed; z-index: 2000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); }
+        .modal-content { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 90%; max-height: 90%; }
+        .modal img { width: 100%; height: auto; border-radius: 16px; }
+        .close { position: absolute; top: 20px; right: 30px; color: white; font-size: 40px; font-weight: bold; cursor: pointer; }
+        .close:hover { opacity: 0.7; }
+        @media (max-width: 768px) { .app-hero { flex-direction: column; text-align: center; } .app-title { font-size: 2rem; } .screenshots-large { gap: 0.5rem; } .screenshot-large { width: 150px; height: 260px; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">NW</div>
+                    <h1>N.W. Store</h1>
+                </div>
+                <a href="../index.html" class="back-btn">← Kembali</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="app-detail">
+        <div class="container">
+            <div class="app-hero">
+                <img src="../icons/debt-manager.png" alt="Debt Manager Icon" class="app-icon-large">
+                <div class="app-info-large">
+                    <h1 class="app-title">Debt Manager</h1>
+                    <p class="app-subtitle">Aplikasi Manajemen Hutang Piutang Terlengkap</p>
+                    <div class="app-rating-large">
+                        <span class="stars-large">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-info">4.9 • 127 ulasan • Gratis</span>
+                    </div>
+                    <button class="download-btn-large" data-app="debt-manager" data-file="apps/debt-manager.apk" data-size="5MB">Download Sekarang</button>
+                </div>
+            </div>
+
+            <div class="screenshots-section">
+                <h2 class="section-title">Screenshot Aplikasi</h2>
+                <div class="screenshots-large">
+                    <img src="../screenshots/debt-manager-1.png" alt="Dashboard" class="screenshot-large">
+                    <img src="../screenshots/debt-manager-2.png" alt="Daftar Hutang" class="screenshot-large">
+                    <img src="../screenshots/debt-manager-3.png" alt="Tambah Hutang" class="screenshot-large">
+                    <img src="../screenshots/debt-manager-4.png" alt="Laporan" class="screenshot-large">
+                </div>
+            </div>
+
+            <div class="description-section">
+                <h2 class="section-title">Tentang Aplikasi</h2>
+                <p class="description-text">Debt Manager adalah aplikasi Android terbaik untuk mengelola hutang dan piutang Anda dengan mudah dan efisien. Dengan interface yang user-friendly dan fitur lengkap, aplikasi ini membantu Anda melacak semua transaksi keuangan dengan akurat.</p>
+                
+                <h3 class="section-title">Fitur Utama:</h3>
+                <ul class="features-list">
+                    <li>Dashboard lengkap dengan ringkasan hutang dan piutang</li>
+                    <li>Tambah, edit, dan hapus data hutang dengan mudah</li>
+                    <li>Reminder otomatis untuk jatuh tempo pembayaran</li>
+                    <li>Laporan dan statistik visual yang informatif</li>
+                    <li>Export data ke PDF dan Excel</li>
+                    <li>Backup dan restore data otomatis</li>
+                    <li>Interface yang mudah digunakan</li>
+                    <li>Keamanan data dengan enkripsi</li>
+                </ul>
+            </div>
+
+            <div class="info-section">
+                <div class="info-card">
+                    <h3>📱 Kompatibilitas</h3>
+                    <p>Android 5.0 ke atas<br>Ukuran: 5MB<br>Bahasa: Indonesia</p>
+                </div>
+                <div class="info-card">
+                    <h3>🔒 Privasi</h3>
+                    <p>Data tersimpan lokal<br>Tidak ada iklan<br>Tidak mengumpulkan data pribadi</p>
+                </div>
+                <div class="info-card">
+                    <h3>🆕 Update Terbaru</h3>
+                    <p>Versi 1.0.0<br>Rilis: Desember 2024<br>Bug fixes dan peningkatan performa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 N.W. Store. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.download-btn-large').addEventListener('click', function() {
+            const fileName = this.dataset.file;
+            const appName = this.dataset.app;
+            const fileSize = this.dataset.size;
+            
+            this.textContent = `Mengunduh... (${fileSize})`;
+            this.disabled = true;
+            
+            setTimeout(() => {
+                const link = document.createElement('a');
+                link.href = '../' + fileName;
+                link.download = `${appName}.apk`;
+                link.style.display = 'none';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                
+                this.textContent = 'Terpasang ✓';
+                this.style.background = '#34C759';
+            }, 2000);
+        });
+
+        // Screenshot modal functionality
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        const closeBtn = document.querySelector('.close');
+        
+        document.querySelectorAll('.screenshot-large').forEach(img => {
+            img.addEventListener('click', function() {
+                modal.style.display = 'block';
+                modalImg.src = this.src;
+                modalImg.alt = this.alt;
+            });
+        });
+        
+        closeBtn.addEventListener('click', () => modal.style.display = 'none');
+        modal.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
+    </script>
+</body>
+</html>

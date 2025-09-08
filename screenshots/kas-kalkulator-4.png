@@ -1,0 +1,16 @@
+<svg width="180" height="320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="320" fill="#f8f9fa" rx="20"/>
+  <rect x="10" y="40" width="160" height="40" fill="#34c759" rx="8"/>
+  <text x="90" y="65" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">Laporan Harian</text>
+  <rect x="20" y="100" width="140" height="50" fill="white" stroke="#e0e0e0" rx="8"/>
+  <text x="30" y="120" fill="#666" font-family="Arial" font-size="12">Total Pemasukan</text>
+  <text x="30" y="135" fill="#34c759" font-family="Arial" font-size="16" font-weight="bold">Rp 450.000</text>
+  <rect x="20" y="160" width="140" height="50" fill="white" stroke="#e0e0e0" rx="8"/>
+  <text x="30" y="180" fill="#666" font-family="Arial" font-size="12">Total Pengeluaran</text>
+  <text x="30" y="195" fill="#e74c3c" font-family="Arial" font-size="16" font-weight="bold">Rp 275.000</text>
+  <rect x="20" y="220" width="140" height="50" fill="white" stroke="#e0e0e0" rx="8"/>
+  <text x="30" y="240" fill="#666" font-family="Arial" font-size="12">Keuntungan Bersih</text>
+  <text x="30" y="255" fill="#007AFF" font-family="Arial" font-size="16" font-weight="bold">Rp 175.000</text>
+  <rect x="50" y="285" width="80" height="25" fill="#34c759" rx="6"/>
+  <text x="90" y="302" text-anchor="middle" fill="white" font-family="Arial" font-size="12">Cetak Laporan</text>
+</svg>

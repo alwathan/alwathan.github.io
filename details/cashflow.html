@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashFlow - Aplikasi Manajemen Arus Kas</title>
+    <meta name="description" content="CashFlow - Aplikasi Android untuk manajemen arus kas bisnis dengan prediksi dan analisis mendalam. Segera hadir dengan fitur AI.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.5; color: #1d1d1f; background: #f5f5f7; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+        header { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(20px); border-bottom: 1px solid rgba(0,0,0,0.1); padding: 1rem 0; position: fixed; width: 100%; top: 0; z-index: 1000; }
+        .header-content { display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; gap: 10px; }
+        .logo-icon { width: 40px; height: 40px; background: linear-gradient(135deg, #007AFF, #5856D6); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2rem; font-weight: 700; }
+        .logo h1 { font-weight: 600; font-size: 1.5rem; color: #1d1d1f; }
+        .back-btn { color: #007AFF; text-decoration: none; font-weight: 500; }
+        .app-detail { padding: 6rem 0 4rem; background: white; }
+        .app-hero { display: flex; gap: 2rem; margin-bottom: 3rem; }
+        .app-icon-large { width: 120px; height: 120px; border-radius: 24px; flex-shrink: 0; object-fit: cover; }
+        .app-info-large { flex: 1; }
+        .app-title { font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .app-subtitle { color: #86868b; font-size: 1.1rem; margin-bottom: 1rem; }
+        .app-rating-large { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
+        .stars-large { color: #FF9500; font-size: 1.2rem; }
+        .rating-info { color: #86868b; }
+        .download-btn-large { background: #86868b; color: white; border: none; padding: 16px 40px; border-radius: 25px; font-weight: 600; font-size: 1.1rem; cursor: not-allowed; }
+        .coming-soon { background: linear-gradient(135deg, #f39c12, #e67e22); color: white; padding: 12px 24px; border-radius: 20px; font-weight: 600; margin-bottom: 1rem; display: inline-block; }
+        .screenshots-section { margin-bottom: 3rem; }
+        .section-title { font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem; }
+        .screenshots-large { display: flex; gap: 1rem; overflow-x: auto; padding-bottom: 1rem; }
+        .screenshot-large { width: 200px; height: 350px; border-radius: 16px; object-fit: cover; border: 1px solid rgba(0,0,0,0.1); cursor: pointer; transition: transform 0.2s ease; }
+        .screenshot-large:hover { transform: scale(1.05); }
+        .description-section { margin-bottom: 3rem; }
+        .description-text { font-size: 1rem; line-height: 1.6; color: #515154; margin-bottom: 2rem; }
+        .features-list { list-style: none; }
+        .features-list li { padding: 0.5rem 0; color: #515154; }
+        .features-list li:before { content: "🚀"; margin-right: 0.5rem; }
+        .info-section { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 3rem; }
+        .info-card { background: #f8f9fa; padding: 1.5rem; border-radius: 12px; }
+        .info-card h3 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; }
+        .info-card p { color: #666; font-size: 0.9rem; }
+        .notify-section { background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 2rem; border-radius: 16px; text-align: center; margin-bottom: 3rem; }
+        .notify-input { display: flex; gap: 1rem; justify-content: center; margin-top: 1rem; }
+        .notify-input input { padding: 12px 20px; border: none; border-radius: 25px; flex: 1; max-width: 300px; }
+        .notify-btn { background: white; color: #667eea; border: none; padding: 12px 24px; border-radius: 25px; font-weight: 600; cursor: pointer; }
+        footer { background: #1d1d1f; color: #86868b; padding: 3rem 0; text-align: center; }
+        .modal { display: none; position: fixed; z-index: 2000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); }
+        .modal-content { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 90%; max-height: 90%; }
+        .modal img { width: 100%; height: auto; border-radius: 16px; }
+        .close { position: absolute; top: 20px; right: 30px; color: white; font-size: 40px; font-weight: bold; cursor: pointer; }
+        .close:hover { opacity: 0.7; }
+        @media (max-width: 768px) { .app-hero { flex-direction: column; text-align: center; } .app-title { font-size: 2rem; } .screenshots-large { gap: 0.5rem; } .screenshot-large { width: 150px; height: 260px; } .notify-input { flex-direction: column; align-items: center; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">NW</div>
+                    <h1>N.W. Store</h1>
+                </div>
+                <a href="../index.html" class="back-btn">← Kembali</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="app-detail">
+        <div class="container">
+            <div class="app-hero">
+                <img src="../icons/cashflow.png" alt="CashFlow Icon" class="app-icon-large">
+                <div class="app-info-large">
+                    <div class="coming-soon">🚀 Segera Hadir</div>
+                    <h1 class="app-title">CashFlow</h1>
+                    <p class="app-subtitle">Aplikasi Manajemen Arus Kas dengan AI Prediction</p>
+                    <div class="app-rating-large">
+                        <span class="stars-large">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-info">Segera Hadir • Gratis</span>
+                    </div>
+                    <button class="download-btn-large" disabled>Dalam Pengembangan</button>
+                </div>
+            </div>
+
+            <div class="notify-section">
+                <h2>Dapatkan Notifikasi Saat Rilis!</h2>
+                <p>Jadilah yang pertama menggunakan CashFlow dengan fitur AI terdepan</p>
+                <div class="notify-input">
+                    <input type="email" placeholder="Masukkan email Anda">
+                    <button class="notify-btn">Notify Me</button>
+                </div>
+            </div>
+
+            <div class="screenshots-section">
+                <h2 class="section-title">Preview Aplikasi</h2>
+                <div class="screenshots-large">
+                    <img src="../screenshots/cashflow-1.png" alt="Dashboard" class="screenshot-large">
+                    <img src="../screenshots/cashflow-2.png" alt="Kategori" class="screenshot-large">
+                    <img src="../screenshots/cashflow-3.png" alt="Prediksi" class="screenshot-large">
+                    <img src="../screenshots/cashflow-4.png" alt="Export" class="screenshot-large">
+                </div>
+            </div>
+
+            <div class="description-section">
+                <h2 class="section-title">Tentang Aplikasi</h2>
+                <p class="description-text">CashFlow adalah aplikasi manajemen arus kas generasi terbaru yang menggunakan teknologi AI untuk memberikan prediksi dan analisis mendalam tentang keuangan bisnis Anda. Dengan dashboard interaktif dan fitur forecasting yang akurat, CashFlow akan menjadi partner terbaik untuk mengoptimalkan arus kas bisnis.</p>
+                
+                <h3 class="section-title">Fitur yang Akan Hadir:</h3>
+                <ul class="features-list">
+                    <li>Dashboard arus kas real-time dengan grafik interaktif</li>
+                    <li>AI Prediction untuk forecasting arus kas 3-6 bulan ke depan</li>
+                    <li>Analisis kategori pengeluaran dengan insights otomatis</li>
+                    <li>Rekomendasi optimasi keuangan berbasis machine learning</li>
+                    <li>Multi-currency support untuk bisnis internasional</li>
+                    <li>Integration dengan bank dan e-wallet populer</li>
+                    <li>Advanced reporting dengan 20+ template laporan</li>
+                    <li>Team collaboration untuk manajemen keuangan tim</li>
+                    <li>Cloud sync dengan keamanan enterprise-grade</li>
+                    <li>Mobile dan web app yang sinkron</li>
+                </ul>
+            </div>
+
+            <div class="info-section">
+                <div class="info-card">
+                    <h3>🎯 Target Rilis</h3>
+                    <p>Q1 2025<br>Beta testing: Januari 2025<br>Public release: Maret 2025</p>
+                </div>
+                <div class="info-card">
+                    <h3>🤖 Teknologi AI</h3>
+                    <p>Machine Learning<br>Predictive Analytics<br>Smart Recommendations</p>
+                </div>
+                <div class="info-card">
+                    <h3>💼 Target Pengguna</h3>
+                    <p>Startup & SME<br>Freelancer<br>Konsultan keuangan<br>Investor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 N.W. Store. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.notify-btn').addEventListener('click', function() {
+            const email = document.querySelector('.notify-input input').value;
+            if (email) {
+                this.textContent = 'Berhasil! ✓';
+                this.style.background = '#34C759';
+                setTimeout(() => {
+                    this.textContent = 'Notify Me';
+                    this.style.background = 'white';
+                }, 3000);
+            }
+        });
+
+        // Screenshot modal functionality
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        const closeBtn = document.querySelector('.close');
+        
+        document.querySelectorAll('.screenshot-large').forEach(img => {
+            img.addEventListener('click', function() {
+                modal.style.display = 'block';
+                modalImg.src = this.src;
+                modalImg.alt = this.alt;
+            });
+        });
+        
+        closeBtn.addEventListener('click', () => modal.style.display = 'none');
+        modal.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
+    </script>
+</body>
+</html>

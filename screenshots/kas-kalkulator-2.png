@@ -1,0 +1,27 @@
+<svg width="180" height="320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="320" fill="#f8f9fa" rx="20"/>
+  <rect x="10" y="40" width="160" height="40" fill="#34c759" rx="8"/>
+  <text x="90" y="65" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">Kalkulator</text>
+  <rect x="20" y="100" width="140" height="40" fill="white" stroke="#ccc" rx="4"/>
+  <text x="150" y="125" text-anchor="end" fill="#333" font-family="Arial" font-size="18">150,000</text>
+  <g fill="#f0f0f0" stroke="#ccc">
+    <rect x="30" y="160" width="30" height="30" rx="4"/>
+    <rect x="70" y="160" width="30" height="30" rx="4"/>
+    <rect x="110" y="160" width="30" height="30" rx="4"/>
+    <rect x="30" y="200" width="30" height="30" rx="4"/>
+    <rect x="70" y="200" width="30" height="30" rx="4"/>
+    <rect x="110" y="200" width="30" height="30" rx="4"/>
+    <rect x="30" y="240" width="30" height="30" rx="4"/>
+    <rect x="70" y="240" width="30" height="30" rx="4"/>
+    <rect x="110" y="240" width="30" height="30" rx="4"/>
+  </g>
+  <text x="45" y="180" text-anchor="middle" fill="#333" font-family="Arial" font-size="16">7</text>
+  <text x="85" y="180" text-anchor="middle" fill="#333" font-family="Arial" font-size="16">8</text>
+  <text x="125" y="180" text-anchor="middle" fill="#333" font-family="Arial" font-size="16">9</text>
+  <text x="45" y="220" text-anchor="middle" fill="#333" font-family="Arial" font-size="16">4</text>
+  <text x="85" y="220" text-anchor="middle" fill="#333" font-family="Arial" font-size="16">5</text>
+  <text x="125" y="220" text-anchor="middle" fill="#333" font-family="Arial" font-size="16">6</text>
+  <text x="45" y="260" text-anchor="middle" fill="#333" font-family="Arial" font-size="16">1</text>
+  <text x="85" y="260" text-anchor="middle" fill="#333" font-family="Arial" font-size="16">2</text>
+  <text x="125" y="260" text-anchor="middle" fill="#333" font-family="Arial" font-size="16">3</text>
+</svg>

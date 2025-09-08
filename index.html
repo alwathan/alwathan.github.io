@@ -3,114 +3,602 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>N.W. Dev - Android Developer</title>
+    <title>N.W. Store - Download Aplikasi Android Terbaik</title>
+    <meta name="description" content="Download aplikasi Android terbaik dari N.W. Store. Aplikasi keuangan, manajemen hutang, dan kalkulator kas untuk kebutuhan bisnis dan personal Anda.">
+    <meta name="keywords" content="download aplikasi android, app store indonesia, aplikasi keuangan, debt manager, kas kalkulator, cashflow app">
+    <meta name="author" content="N.W. Dev">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://alwathan.github.io/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="N.W. Store - Download Aplikasi Android Terbaik">
+    <meta property="og:description" content="Download aplikasi Android terbaik untuk keuangan, manajemen hutang, dan bisnis. Gratis dan aman!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alwathan.github.io/">
+    <meta property="og:site_name" content="N.W. Store">
+    <meta property="og:locale" content="id_ID">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="N.W. Store - Download Aplikasi Android Terbaik">
+    <meta name="twitter:description" content="Download aplikasi Android terbaik untuk keuangan dan bisnis. Gratis dan aman!">
+    
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-        header { background: #2c3e50; color: white; padding: 1rem 0; }
-        .hero { text-align: center; padding: 4rem 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
-        .hero h1 { font-size: 3rem; margin-bottom: 1rem; }
-        .hero p { font-size: 1.2rem; margin-bottom: 2rem; }
-        .btn { display: inline-block; padding: 12px 30px; background: #e74c3c; color: white; text-decoration: none; border-radius: 5px; transition: background 0.3s; }
-        .btn:hover { background: #c0392b; }
-        .services { padding: 4rem 0; }
-        .services h2 { text-align: center; margin-bottom: 3rem; font-size: 2.5rem; }
-        .service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
-        .service-card { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center; }
-        .service-card h3 { color: #2c3e50; margin-bottom: 1rem; }
-        .portfolio { padding: 4rem 0; background: #ecf0f1; }
-        .portfolio h2 { text-align: center; margin-bottom: 3rem; font-size: 2.5rem; }
-        .app-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
-        .app-card { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
-        .app-card h3 { color: #2c3e50; margin-bottom: 1rem; font-size: 1.5rem; }
-        .app-status { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: bold; margin-bottom: 1rem; }
-        .status-released { background: #27ae60; color: white; }
-        .status-development { background: #f39c12; color: white; }
-        .privacy-link { display: inline-block; margin-top: 1rem; padding: 6px 12px; background: #95a5a6; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; transition: background 0.3s; }
-        .privacy-link:hover { background: #7f8c8d; }
-        .contact { background: #34495e; color: white; padding: 4rem 0; text-align: center; }
-        footer { background: #2c3e50; color: white; text-align: center; padding: 2rem 0; }
+        
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
+            line-height: 1.5; 
+            color: #1d1d1f;
+            background: #f5f5f7;
+            scroll-behavior: smooth;
+        }
+        
+        .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Header */
+        header { 
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #007AFF, #5856D6);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+        
+        .logo h1 {
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: #1d1d1f;
+        }
+        
+        .search-bar {
+            flex: 1;
+            max-width: 400px;
+            margin: 0 2rem;
+            position: relative;
+        }
+        
+        .search-bar input {
+            width: 100%;
+            padding: 12px 20px 12px 45px;
+            border: none;
+            border-radius: 25px;
+            background: rgba(0,0,0,0.05);
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+        
+        .search-bar input:focus {
+            background: white;
+            box-shadow: 0 0 0 2px #007AFF;
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #86868b;
+        }
+        
+        /* Apps Grid */
+        .apps-section {
+            padding: 6rem 0 4rem;
+            background: white;
+        }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #1d1d1f;
+        }
+        
+        .see-all {
+            color: #007AFF;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .app-card {
+            background: white;
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            border: 1px solid rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .app-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+        }
+        
+        .app-header {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .app-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            flex-shrink: 0;
+            object-fit: cover;
+        }
+        
+        .app-info {
+            flex: 1;
+        }
+        
+        .app-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 0.2rem;
+        }
+        
+        .app-developer {
+            color: #86868b;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .app-rating {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .stars {
+            color: #FF9500;
+        }
+        
+        .rating-text {
+            font-size: 0.9rem;
+            color: #86868b;
+        }
+        
+        .app-description {
+            color: #515154;
+            font-size: 0.95rem;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+        }
+        
+        .app-screenshots {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            overflow-x: auto;
+        }
+        
+        .screenshot {
+            width: 60px;
+            height: 100px;
+            border-radius: 8px;
+            flex-shrink: 0;
+            object-fit: cover;
+            border: 1px solid rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        
+        .screenshot:hover {
+            transform: scale(1.05);
+        }
+        
+        .app-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .app-price {
+            font-weight: 600;
+            color: #1d1d1f;
+        }
+        
+        .download-btn {
+            background: #007AFF;
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .download-btn:hover {
+            background: #0056CC;
+            transform: scale(1.05);
+        }
+        
+        .download-btn.installed {
+            background: #34C759;
+        }
+        
+        .download-btn:disabled {
+            background: #86868b;
+            cursor: not-allowed;
+        }
+        
+        .download-progress {
+            width: 100%;
+            height: 4px;
+            background: #f0f0f0;
+            border-radius: 2px;
+            margin-top: 8px;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background: #007AFF;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+        
+        /* Footer */
+        footer {
+            background: #1d1d1f;
+            color: #86868b;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: #86868b;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: #007AFF;
+        }
+        
+        /* Responsive */
         @media (max-width: 768px) {
-            .hero h1 { font-size: 2rem; }
-            .service-grid { grid-template-columns: 1fr; }
-            .app-grid { grid-template-columns: 1fr; }
+            .header-content {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .search-bar {
+                margin: 0;
+                max-width: 100%;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .hero-stats {
+                gap: 1.5rem;
+            }
+            
+            .apps-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .app-screenshots {
+                display: none;
+            }
+        }ackground: #0056CC;
+            transform: scale(1.05);
+        }
+        
+        .download-btn.installed {
+            background: #34C759;
+        }
+        
+        .download-btn:disabled {
+            background: #86868b;
+            cursor: not-allowed;
+        }
+        
+        /* Footer */
+        footer {
+            background: #1d1d1f;
+            color: #86868b;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: #86868b;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: #007AFF;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .search-bar {
+                margin: 0;
+                max-width: 100%;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .hero-stats {
+                gap: 1.5rem;
+            }
+            
+            .apps-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .app-screenshots {
+                display: none;
+            }
         }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>N.W. Dev</h1>
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">NW</div>
+                    <h1>N.W. Store</h1>
+                </div>
+                <div class="search-bar">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" placeholder="Cari aplikasi, game, dan lainnya...">
+                </div>
+            </div>
         </div>
     </header>
 
-    <section class="hero">
+    <section class="apps-section">
         <div class="container">
-            <h1>Android Developer</h1>
-            <p>Mengembangkan aplikasi Android berkualitas tinggi dengan teknologi terdepan</p>
-            <a href="#contact" class="btn">Hubungi Saya</a>
-        </div>
-    </section>
-
-    <section class="services">
-        <div class="container">
-            <h2>Layanan</h2>
-            <div class="service-grid">
-                <div class="service-card">
-                    <h3>📱 Pengembangan Aplikasi</h3>
-                    <p>Membuat aplikasi Android native dengan performa optimal dan UI/UX yang menarik</p>
-                </div>
-                <div class="service-card">
-                    <h3>🔧 Maintenance & Update</h3>
-                    <p>Pemeliharaan dan update aplikasi untuk memastikan kompatibilitas dengan versi Android terbaru</p>
-                </div>
-                <div class="service-card">
-                    <h3>🚀 Optimasi Performa</h3>
-                    <p>Meningkatkan performa aplikasi dan mengurangi ukuran file untuk pengalaman pengguna yang lebih baik</p>
-                </div>
+            <div class="section-header">
+                <h2 class="section-title">Aplikasi Unggulan</h2>
+                <a href="#" class="see-all">Lihat Semua</a>
             </div>
-        </div>
-    </section>
+            <div class="apps-grid">
+                <article class="app-card" onclick="window.location.href='details/debt-manager.html'" style="cursor: pointer;">
+                    <div class="app-header">
+                        <img src="icons/debt-manager.png" alt="Debt Manager Icon" class="app-icon">
+                        <div class="app-info">
+                            <div class="app-name">Debt Manager</div>
+                            <div class="app-developer">N.W. Dev</div>
+                            <div class="app-rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.9 (127)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="app-description">Aplikasi manajemen hutang piutang yang membantu Anda melacak dan mengelola keuangan dengan mudah. Fitur lengkap untuk tracking pembayaran dan reminder otomatis.</p>
+                    <div class="app-screenshots">
+                        <img src="screenshots/debt-manager-1.png" alt="Dashboard" class="screenshot">
+                        <img src="screenshots/debt-manager-2.png" alt="Daftar Hutang" class="screenshot">
+                        <img src="screenshots/debt-manager-3.png" alt="Tambah Hutang" class="screenshot">
+                        <img src="screenshots/debt-manager-4.png" alt="Laporan" class="screenshot">
+                    </div>
+                    <div class="app-footer">
+                        <span class="app-price">Gratis</span>
+                        <button class="download-btn" data-app="debt-manager" data-file="apps/debt-manager.apk" data-size="5MB">Download</button>
+                    </div>
+                    <div class="download-progress" style="display: none;">
+                        <div class="progress-bar"></div>
+                    </div>
+                </article>
 
-    <section class="portfolio">
-        <div class="container">
-            <h2>Portfolio Aplikasi</h2>
-            <div class="app-grid">
-                <div class="app-card">
-                    <h3>💰 Debt Manager</h3>
-                    <span class="app-status status-released">Tersedia</span>
-                    <p>Aplikasi manajemen hutang yang membantu pengguna melacak dan mengelola hutang piutang dengan mudah dan efisien.</p>
-                    <a href="privacy-debt-manager.html" class="privacy-link">📋 Kebijakan Privasi</a>
-                </div>
-                <div class="app-card">
-                    <h3>🧮 Kas Kalkulator</h3>
-                    <span class="app-status status-released">Tersedia</span>
-                    <p>Kalkulator kas yang dirancang khusus untuk membantu pengelolaan keuangan harian dan perhitungan kas dengan akurat.</p>
-                    <a href="privacy-kas-kalkulator.html" class="privacy-link">📋 Kebijakan Privasi</a>
-                </div>
-                <div class="app-card">
-                    <h3>📊 CashFlow</h3>
-                    <span class="app-status status-development">Dalam Pengembangan</span>
-                    <p>Aplikasi manajemen arus kas yang akan membantu bisnis dan individu memantau pemasukan dan pengeluaran secara real-time.</p>
-                    <a href="privacy-cashflow.html" class="privacy-link">📋 Kebijakan Privasi</a>
-                </div>
+                <article class="app-card" onclick="window.location.href='details/kas-kalkulator.html'" style="cursor: pointer;">
+                    <div class="app-header">
+                        <img src="icons/kas-kalkulator.png" alt="Kas Kalkulator Icon" class="app-icon">
+                        <div class="app-info">
+                            <div class="app-name">Kas Kalkulator</div>
+                            <div class="app-developer">N.W. Dev</div>
+                            <div class="app-rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8 (89)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="app-description">Kalkulator kas profesional untuk bisnis kecil dan menengah. Hitung kas harian dengan akurat dan buat laporan keuangan sederhana dengan mudah.</p>
+                    <div class="app-screenshots">
+                        <img src="screenshots/kas-kalkulator-1.png" alt="Dashboard Kas" class="screenshot">
+                        <img src="screenshots/kas-kalkulator-2.png" alt="Kalkulator" class="screenshot">
+                        <img src="screenshots/kas-kalkulator-3.png" alt="Riwayat" class="screenshot">
+                        <img src="screenshots/kas-kalkulator-4.png" alt="Laporan" class="screenshot">
+                    </div>
+                    <div class="app-footer">
+                        <span class="app-price">Gratis</span>
+                        <button class="download-btn" data-app="kas-kalkulator" data-file="apps/kas-kalkulator.apk" data-size="3MB">Download</button>
+                    </div>
+                    <div class="download-progress" style="display: none;">
+                        <div class="progress-bar"></div>
+                    </div>
+                </article>
+
+                <article class="app-card" onclick="window.location.href='details/cashflow.html'" style="cursor: pointer;">
+                    <div class="app-header">
+                        <img src="icons/cashflow.png" alt="CashFlow Icon" class="app-icon">
+                        <div class="app-info">
+                            <div class="app-name">CashFlow</div>
+                            <div class="app-developer">N.W. Dev</div>
+                            <div class="app-rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">Segera Hadir</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="app-description">Aplikasi manajemen arus kas yang akan membantu bisnis dan individu memantau pemasukan dan pengeluaran secara real-time dengan dashboard interaktif.</p>
+                    <div class="app-screenshots">
+                        <img src="screenshots/cashflow-1.png" alt="Dashboard" class="screenshot">
+                        <img src="screenshots/cashflow-2.png" alt="Kategori" class="screenshot">
+                        <img src="screenshots/cashflow-3.png" alt="Prediksi" class="screenshot">
+                        <img src="screenshots/cashflow-4.png" alt="Export" class="screenshot">
+                    </div>
+                    <div class="app-footer">
+                        <span class="app-price">Gratis</span>
+                        <button class="download-btn" disabled>Segera Hadir</button>
+                    </div>
+                    <div class="download-progress" style="display: none;">
+                        <div class="progress-bar"></div>
+                    </div>
+                </article>
             </div>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <div class="container">
-            <h2>Hubungi Saya</h2>
-            <p>Siap membantu mewujudkan ide aplikasi Android Anda</p>
-            <p>📧 Email: contact@nwdev.com | 📱 WhatsApp: +62 xxx-xxxx-xxxx</p>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 N.W. Dev. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="privacy/debt-manager.html">Kebijakan Privasi</a>
+                <a href="#">Syarat & Ketentuan</a>
+                <a href="#">Bantuan</a>
+                <a href="#">Kontak</a>
+            </div>
+            <p>&copy; 2024 N.W. Store. Semua hak dilindungi.</p>
         </div>
     </footer>
+
+    <script>
+        // Removed category tabs functionality
+
+        // Real download functionality
+        document.querySelectorAll('.download-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                if (!this.disabled && !this.classList.contains('installed')) {
+                    const appName = this.dataset.app;
+                    const fileName = this.dataset.file;
+                    const fileSize = this.dataset.size;
+                    const progressContainer = this.parentElement.nextElementSibling;
+                    const progressBar = progressContainer.querySelector('.progress-bar');
+                    
+                    // Show progress
+                    this.textContent = `Mengunduh... (${fileSize})`;
+                    this.disabled = true;
+                    progressContainer.style.display = 'block';
+                    
+                    // Simulate download progress
+                    let progress = 0;
+                    const interval = setInterval(() => {
+                        progress += Math.random() * 15;
+                        if (progress > 100) progress = 100;
+                        progressBar.style.width = progress + '%';
+                        
+                        if (progress >= 100) {
+                            clearInterval(interval);
+                            
+                            // Start actual download
+                            const link = document.createElement('a');
+                            link.href = fileName;
+                            link.download = `${appName}.apk`;
+                            link.style.display = 'none';
+                            document.body.appendChild(link);
+                            link.click();
+                            document.body.removeChild(link);
+                            
+                            // Update UI
+                            setTimeout(() => {
+                                this.textContent = 'Terpasang ✓';
+                                this.classList.add('installed');
+                                progressContainer.style.display = 'none';
+                                this.disabled = false;
+                            }, 500);
+                        }
+                    }, 100);
+                }
+            });
+        });
+
+        // Search functionality
+        document.querySelector('.search-bar input').addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase();
+            document.querySelectorAll('.app-card').forEach(card => {
+                const appName = card.querySelector('.app-name').textContent.toLowerCase();
+                const appDesc = card.querySelector('.app-description').textContent.toLowerCase();
+                if (appName.includes(searchTerm) || appDesc.includes(searchTerm)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = searchTerm === '' ? 'block' : 'none';
+                }
+            });
+        });
+
+        // Update download stats
+        function updateStats() {
+            const installedApps = document.querySelectorAll('.download-btn.installed').length;
+            const totalDownloads = 1000 + installedApps * 50;
+            document.querySelector('.stat-number').textContent = totalDownloads + '+';
+        }
+
+        // Check for installed apps on page load
+        setInterval(updateStats, 1000);
+    </script>
 </body>
 </html>
